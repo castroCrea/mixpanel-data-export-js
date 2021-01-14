@@ -1,6 +1,6 @@
 {
-  "name": "mixpanel-data-export",
-  "version": "2.0.3",
+  "name": "@castrocrea/mixpanel-data-export",
+  "version": "2.0.4",
   "description": "A wrapper for Mixpanel's data export API. Simply instantiate the class with your API secret and key and then make calls to api methods and get json back.",
   "keywords": [
     "mixpanel",
@@ -22,11 +22,7 @@
     "email": "mike@mcarter.me"
   },
   "license": "MIT",
-  "author": {
-    "name": "Mike Carter",
-    "email": "mike@mcarter.me",
-    "url": "http://mcarter.me/"
-  },
+  "author": "Mike Carter <mike@mcarter.me> (http://mcarter.me/)",
   "main": "src/mixpanel_data_export.js",
   "files": [
     "src/*",
@@ -34,7 +30,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/castroCrea/mixpanel-data-export-js.git"
+    "url": "git+https://github.com/castroCrea/mixpanel-data-export-js.git"
   },
   "scripts": {
     "release": "./scripts/release.sh",
@@ -59,5 +55,8 @@
     "karma-spec-reporter": "0.0.26",
     "mocha": "^2.0.1",
     "split": "^0.3.3"
+  },
+  "directories": {
+    "test": "test"
   }
 }
