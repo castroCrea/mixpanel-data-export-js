@@ -243,7 +243,7 @@ var MixpanelExport = (function () {
     if (typeof window === "object" && window.btoa) {
       return window.btoa(string)
     }
-    return new Buffer(string).toString('base64');
+    return new Buffer.from(string).toString('base64');
   };
 
   MixpanelExport.prototype._xmlHttpRequest = function () {
